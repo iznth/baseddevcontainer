@@ -25,9 +25,9 @@ LABEL \
     org.opencontainers.image.created=$CREATED \
     org.opencontainers.image.version=$VERSION \
     org.opencontainers.image.revision=$COMMIT \
-    org.opencontainers.image.url="https://github.com/qdm12/basedevcontainer" \
-    org.opencontainers.image.documentation="https://github.com/qdm12/basedevcontainer" \
-    org.opencontainers.image.source="https://github.com/qdm12/basedevcontainer" \
+    org.opencontainers.image.url="https://github.com/iznth/basedevcontainer" \
+    org.opencontainers.image.documentation="https://github.com/iznth/basedevcontainer" \
+    org.opencontainers.image.source="https://github.com/iznth/basedevcontainer" \
     org.opencontainers.image.title="Base Dev container Debian" \
     org.opencontainers.image.description="Base Debian development container for Visual Studio Code Remote Containers development"
 ENV BASE_VERSION="${VERSION}-${CREATED}-${COMMIT}"

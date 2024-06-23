@@ -2,32 +2,32 @@
 
 Base Alpine development container for Visual Studio Code, used as base image by other images
 
-<img height="300" src="https://raw.githubusercontent.com/qdm12/basedevcontainer/master/title.svg">
+<img height="300" src="https://raw.githubusercontent.com/iznth/basedevcontainer/master/title.svg">
 
-[![Alpine](https://github.com/qdm12/basedevcontainer/actions/workflows/alpine.yml/badge.svg)](https://github.com/qdm12/basedevcontainer/actions/workflows/alpine.yml)
-[![Debian](https://github.com/qdm12/basedevcontainer/actions/workflows/debian.yml/badge.svg)](https://github.com/qdm12/basedevcontainer/actions/workflows/debian.yml)
+[![Alpine](https://github.com/iznth/basedevcontainer/actions/workflows/alpine.yml/badge.svg)](https://github.com/iznth/basedevcontainer/actions/workflows/alpine.yml)
+[![Debian](https://github.com/iznth/basedevcontainer/actions/workflows/debian.yml/badge.svg)](https://github.com/iznth/basedevcontainer/actions/workflows/debian.yml)
 
 [![dockeri.co](https://dockeri.co/image/qmcgaw/basedevcontainer)](https://hub.docker.com/r/qmcgaw/basedevcontainer)
 
-![Last release](https://img.shields.io/github/release/qdm12/basedevcontainer?label=Last%20release)
+![Last release](https://img.shields.io/github/release/iznth/basedevcontainer?label=Last%20release)
 ![Last Docker tag](https://img.shields.io/docker/v/qmcgaw/basedevcontainer?sort=semver&label=Last%20Docker%20tag)
 [![Last release size](https://img.shields.io/docker/image-size/qmcgaw/basedevcontainer?sort=semver&label=Last%20released%20image)](https://hub.docker.com/r/qmcgaw/basedevcontainer/tags?page=1&ordering=last_updated)
-![GitHub last release date](https://img.shields.io/github/release-date/qdm12/basedevcontainer?label=Last%20release%20date)
-![Commits since release](https://img.shields.io/github/commits-since/qdm12/basedevcontainer/latest?sort=semver)
+![GitHub last release date](https://img.shields.io/github/release-date/iznth/basedevcontainer?label=Last%20release%20date)
+![Commits since release](https://img.shields.io/github/commits-since/iznth/basedevcontainer/latest?sort=semver)
 
 [![Latest size](https://img.shields.io/docker/image-size/qmcgaw/basedevcontainer/latest?label=Latest%20image)](https://hub.docker.com/r/qmcgaw/basedevcontainer/tags)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/commits/master)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/graphs/contributors)
-[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/pulls?q=is%3Apr+is%3Aclosed)
-[![GitHub issues](https://img.shields.io/github/issues/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/qdm12/basedevcontainer.svg)](https://github.com/qdm12/basedevcontainer/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub last commit](https://img.shields.io/github/last-commit/iznth/basedevcontainer.svg)](https://github.com/iznth/basedevcontainer/commits/master)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/iznth/basedevcontainer.svg)](https://github.com/iznth/basedevcontainer/graphs/contributors)
+[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/iznth/basedevcontainer.svg)](https://github.com/iznth/basedevcontainer/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/iznth/basedevcontainer.svg)](https://github.com/iznth/basedevcontainer/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/iznth/basedevcontainer.svg)](https://github.com/iznth/basedevcontainer/issues?q=is%3Aissue+is%3Aclosed)
 
-[![Lines of code](https://img.shields.io/tokei/lines/github/qdm12/basedevcontainer)](https://github.com/qdm12/basedevcontainer)
-![Code size](https://img.shields.io/github/languages/code-size/qdm12/basedevcontainer)
-![GitHub repo size](https://img.shields.io/github/repo-size/qdm12/basedevcontainer)
+[![Lines of code](https://img.shields.io/tokei/lines/github/iznth/basedevcontainer)](https://github.com/iznth/basedevcontainer)
+![Code size](https://img.shields.io/github/languages/code-size/iznth/basedevcontainer)
+![GitHub repo size](https://img.shields.io/github/repo-size/iznth/basedevcontainer)
 
-[![MIT](https://img.shields.io/github/license/qdm12/basedevcontainer)](https://github.com/qdm12/basedevcontainer/master/LICENSE)
+[![MIT](https://img.shields.io/github/license/iznth/basedevcontainer)](https://github.com/iznth/basedevcontainer/master/LICENSE)
 ![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=basedevcontainer.readme)
 
 ## Features
@@ -47,7 +47,7 @@ Base Alpine development container for Visual Studio Code, used as base image by 
   - `docker-compose` and `docker compose` docker plugin
   - [`docker buildx`](https://github.com/docker/buildx) docker plugin
   - [`bit`](https://github.com/chriswalz/bit)
-  - [`devtainr`](https://github.com/qdm12/devtainr)
+  - [`devtainr`](https://github.com/iznth/devtainr)
 - Custom integrated terminal
   - Based on zsh and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
   - Uses the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
@@ -77,8 +77,8 @@ Base Alpine development container for Visual Studio Code, used as base image by 
     # we assume you are in /yourpath/myproject
     mkdir .devcontainer
     cd .devcontainer
-    wget -q https://raw.githubusercontent.com/qdm12/basedevcontainer/master/.devcontainer/devcontainer.json
-    wget -q https://raw.githubusercontent.com/qdm12/basedevcontainer/master/.devcontainer/docker-compose.yml
+    wget -q https://raw.githubusercontent.com/iznth/basedevcontainer/master/.devcontainer/devcontainer.json
+    wget -q https://raw.githubusercontent.com/iznth/basedevcontainer/master/.devcontainer/docker-compose.yml
     ```
 
 1. If you have a *.vscode/settings.json*, eventually move the settings to *.devcontainer/devcontainer.json* in the `"settings"` section as *.vscode/settings.json* take precedence over the settings defined in *.devcontainer/devcontainer.json*.
@@ -116,7 +116,7 @@ You can build and extend the Docker development image to suit your needs.
 - You can build the development image yourself:
 
     ```sh
-    docker build -t qmcgaw/basedevcontainer -f alpine.Dockerfile  https://github.com/qdm12/basedevcontainer.git
+    docker build -t qmcgaw/basedevcontainer -f alpine.Dockerfile  https://github.com/iznth/basedevcontainer.git
     ```
 
 - You can extend the Docker image `qmcgaw/basedevcontainer` with your own instructions.
